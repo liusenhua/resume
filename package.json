@@ -1,0 +1,24 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Andy's online resume in Markdown format",
+  "scripts": {
+    "init": "npm install && node node_modules/copy/bin/cli ./*.css node_modules/markdown-resume/assets/css/",
+    "build": "npm run init && node node_modules/markdown-resume/bin/md2resume resume.md",
+    "build-pdf": "npm run init && node node_modules/markdown-resume/bin/md2resume --pdf resume.md"
+  },
+  "keywords": [
+    "Resume",
+    "Markdown"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:liusenhua/resume.git"
+  },
+  "author": "liusenhua",
+  "license": "ISC",
+  "dependencies": {
+    "copy": "^0.2.3",
+    "markdown-resume": "latest"
+  }
+}

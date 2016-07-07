@@ -1,0 +1,58 @@
+body.pdf {
+    color: black;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .container {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 0;
+        background: none;
+        border: none;
+        border-width: 8px 0 2px 0;
+        text-align: left;
+    }
+
+    .resume {
+        position:relative;
+        padding: 40px 80px;
+    }
+
+    a[href$='.pdf'] {
+        display: none;
+    }
+
+    h1 {
+        letter-spacing: 0;
+        margin-top: 0;
+        font-size: 48px;
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+    h2 {
+        letter-spacing: 0;
+        text-transform: uppercase;
+        font-style: italic;
+        font-weight: normal;
+    }
+    h3 {
+        font-style: normal;
+    }
+
+    blockquote {
+        top: 40px;
+        right: 80px;
+        position: absolute;
+    }
+
+    li, p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    li strong, p strong, li em, p em {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
