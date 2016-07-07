@@ -83,6 +83,7 @@
 	+ Implement UI widgets and components.
 	
   **Technical Environment**: C++, QT
+
 ------
 
 ### Github Projects
