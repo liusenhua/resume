@@ -30,18 +30,18 @@
 
 ### Experience
 
-* **Autodesk EZHome Platform** *Senior Developer* __2016/5 to present__
-	<a href=http://www.shejijia.com/>www.shejijia.com</a>
-  Build the O2O home platform for EZHome (one of the largest home retailers in China) by leveraging Autodesk cloud service.
+* **Autodesk EZHome Platform** *Senior Developer* __2016/5 to present__  
+    <a href=http://www.shejijia.com/>www.shejijia.com</a>  
+    Build the O2O home platform for EZHome (one of the largest home retailers in China) by leveraging Autodesk cloud service.
 	+ Led a team to build a set of backend API services from scratch. Focusing on architecture and technical solution definition, coding practice and modularizing components etc. 
 	+ Designed and implemented RESTful API based Framework. Micro-service oriented for separated development, easy deployment and comfortable maintenance. Used by all EZHome RESTful API based backend projects.
 	+ Coordinate the project feature scope and milestones with PM, lead the team to develop and deliver APIs in time.
 	
   **Technical Environment**: Java, Spring boot, Jersey, Swagger, AWS, Couchbase, MySQL
 
-* **Autodesk Homestyler Floorplan** *Senior Developer* __2015 to 2016/5__
-	<a href=http://www.homestyler.com/floorplan>www.homestyler.com</a> 
-  An HTML5 and WebGL based product that targets on real 3d visualization for home decoration.
+* **Autodesk Homestyler Floorplan** *Senior Developer* __2015 to 2016/5__  
+	<a href=http://www.homestyler.com/floorplan>www.homestyler.com</a>  
+    An HTML5 and WebGL based product that targets on real 3d visualization for home decoration.
 	+ Proposed, designed and implemented the search/index service for catalog/product based on Elasticsearch. Support features: query & filter by various of criteria, full-text search, ranking by customized weights(retailer, brands).<br>
   **Technical Environment**: Scala, Play Framework, Elasticsearch, AWS SQS.
 
@@ -57,9 +57,9 @@
 	+ Work closely together with Ops to set up the build and deployment system for backend, writing scripts for migration or ad hoc requirements.<br>
   **Technical Environment**: Bamboo, Python, Bash, Linux
 
-* **Autodesk Tinkercad/ContentBuilder** *Senior Developer* __2013 to 2014__
-	<a href=https://www.tinkercad.com/>www.tinkercad.com</a>
-  A simple, browser-based 3D design/modeling and 3D printing app for all.
+* **Autodesk Tinkercad** *Senior Developer* __2013 to 2014__   
+    <a href=https://www.tinkercad.com/>www.tinkercad.com</a>  
+    A simple, browser-based 3D design/modeling and 3D printing app for all.
 	+ Designed and implemented the core mesh processing algorithms: imprint image on mesh surface, emboss text on mesh surface, mesh slicing, etc.<br>
   **Technical Environment**: Javascript/NodeJs, SVG, clipper.js, tess2.js.
 
@@ -68,17 +68,17 @@
 	
   **Technical Environment**: Go, Javascript/NodeJs, Bash/Linux
 
-* **Autodesk 123D Family app** *Frontend Developer* __2011 to 2013__
-	<a href=http://www.123dapp.com/>www.123dapp.com</a>
-  A family of free online apps to design and modeling.
+* **Autodesk 123D Family app** *Frontend Developer* __2011 to 2013__  
+    <a href=http://www.123dapp.com/>www.123dapp.com</a>  
+    A family of free online apps to design and modeling.
 	+ Setup the Web Infrastructure, design and implement CI & CD system.
 	+ Designed and implemented various of features from UI to modeling.
 	
   **Technical Environment**: Javascript, Python, PHP, AWS
 
-* **Autodesk Sketchbook** *C++ Developer* __2007 to 2010__
-	<a href=https://www.sketchbook.com/>www.sketchbook.com</a>
-  A desktop 2D sketch&paint tool.
+* **Autodesk Sketchbook** *C++ Developer* __2007 to 2010__  
+	<a href=https://www.sketchbook.com/>www.sketchbook.com</a>  
+    A desktop 2D sketch&paint tool.
 	+ Implement various of brush painting, image processing features.
 	+ Implement UI widgets and components.
 	
@@ -88,9 +88,9 @@
 
 ### Github Projects
 
-* **play-nosql** 
-	<a href=https://github.com/liusenhua/play-nosql>https://github.com/liusenhua/play-nosql.git</a>
-  A starter kit project to demonstrate how to use various NoSQL DBs in Scala Play2, as well as document REST APIs with Swagger.
+* **play-nosql**   
+    [https://github.com/liusenhua/play-nosql.git](https://github.com/liusenhua/play-nosql)  
+    A starter kit project to demonstrate how to use various NoSQL DBs in Scala Play2, as well as document REST APIs with Swagger.
 
 ------
 
