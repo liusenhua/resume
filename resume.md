@@ -1,9 +1,9 @@
 # 刘森华
 ## Full Stack Developer & DevOps & Code Enthusiast
 
-> [https://github.com/liusenhua](https://github.com/liusenhua)
-> [senhua.liu@gmail.com](mailto:senhua.liu@gmail.com)
-> (086) 13764449535
+> [https://github.com/liusenhua](https://github.com/liusenhua)  
+> [senhua.liu@gmail.com](mailto:senhua.liu@gmail.com)  
+> (086) 13764449535  
 
 ------
 ### Profile
