@@ -13,3 +13,8 @@ This my resume in markdown format which lets me version, style and generate html
 npm run build
 npm run build-pdf
 ```
+## resume
+| Language | html                                                                                                     | markdown                                                               | pdf                                                                      |
+|----------|----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| English  | [resume.html](http://htmlpreview.github.io/?https://github.com/liusenhua/resume/blob/master/resume.html) | [resume.md](https://github.com/liusenhua/resume/blob/master/resume.md) | [resume.pdf](https://github.com/liusenhua/resume/blob/master/resume.pdf) |
+| 中文     |                                                                                                          |                                                                        |                                                                          |
