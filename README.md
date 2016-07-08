@@ -10,6 +10,6 @@ This my resume in markdown format which lets me version, style and generate html
 
 ## generate
 ```shell
-npm run build
+npm run build-html
 npm run build-pdf
 ```
