@@ -10,8 +10,13 @@ This my resume in markdown format which lets me version, style and generate html
 
 ## generate
 ```shell
-npm run build-html
-npm run build-pdf
+# generate html version
+npm run build-html resume.md
+npm run build-html resume-cn.md
+
+# generate pdf version
+npm run build-pdf resume.md
+npm run build-pdf resume-cn.md
 ```
 ## resume
 | Language | html                         | markdown                  | pdf                         |

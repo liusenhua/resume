@@ -74,7 +74,7 @@
 	+ Setup the Web Infrastructure, design and implement CI & CD system.
 	+ Designed and implemented various of features from UI to modeling.
 	
-  **Technical Environment**: Javascript, Python, PHP, AWS
+  **Technical Environment**: Javascript, Python, Bamboo, AWS
 
 * **Autodesk Sketchbook** *C++ Developer* __2007 to 2010__  
 	[www.sketchbook.com](https://www.sketchbook.com/)  

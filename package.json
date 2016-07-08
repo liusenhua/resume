@@ -4,8 +4,8 @@
   "description": "Andy's online resume in Markdown format",
   "scripts": {
     "init": "npm install && node node_modules/copy/bin/cli ./*.css node_modules/markdown-resume/assets/css/",
-    "build-html": "npm run init && node node_modules/markdown-resume/bin/md2resume resume.md",
-    "build-pdf": "npm run init && node node_modules/markdown-resume/bin/md2resume --pdf resume.md"
+    "build-html": "npm run init && node node_modules/markdown-resume/bin/md2resume",
+    "build-pdf": "npm run init && node node_modules/markdown-resume/bin/md2resume --pdf"
   },
   "keywords": [
     "Resume",
