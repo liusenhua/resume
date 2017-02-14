@@ -7,13 +7,13 @@
 
 ------
 ### 简介
-* 10年开发经验 (超过6年的web开发, 4年的C++开发)
+* 10年开发经验 (超过6年的web全栈开发, 4年的C++开发)
 * 熟练的全栈式开发和架构技术
 * 丰富的前端，后端，部署，2D/3D图形和mesh处理经验
 * 可扩展的高可用和可靠地微服务实践经验
 * 丰富的RESTful API服务的开发，部署和集成经验
 * 熟练的面向对象和面向函数编程，云计算，AWS技能
-* DevOps
+* DevOps相关经验, Docker和Kubernetes
 * 喜欢新技术和开源产品
 
 ------
@@ -23,14 +23,23 @@
 * **后端框架**: Spring Boot, Jersey, Play framework, Swagger
 * **前端框架**: AngularJs, JQuery, Google Closure Tools, Bootstrap, HTML5, SVG
 * **数据库相关**: MySQL, NoSQL(Couchbase, Redis), Elasticsearch
-* **Web架构/部署**: AWS, Apache, Varnish, HAProxy, Docker
+* **Web架构/部署**: AWS, Apache, Varnish, HAProxy
+* **CI/CD**: Docker, Kubenetes
 * **开发工具**: Git, Maven, NPM, Grunt, Bamboo
 
 ------
 
 ### 经历
 
-* **Autodesk EZHome Platform** *高级开发* __2016/5 to present__  
+* **万达电商新飞凡云平台** *资深工程师* __2016/10 to present__  
+    [www.ffan.com](http://www.ffan.com/new/index.html)  
+    基于Docker和Kubernetes技术，开发万达私有云Web应用, 实现持续集成和部署本身的服务化，方便万达实现服务和应用的容器化。
+    + 作为核心人员，负责后台框架搭建，数据库设计，CI/CD工作流交互，API设计，以及核心的服务创建部署等API开发。
+    + 协助项目scrum master和PM保证后台开发的进度，及时提供API支持
+    
+  **技术栈**: Java, Spring boot, Docker, Kubernetes, MySQL
+
+* **Autodesk EZHome Platform** *高级开发* __2016/5 to 2016/10__  
     [www.shejijia.com](http://www.shejijia.com/)  
     基于欧特克的工具和云技术，打造居然之家(中国最大的家装零售商)的家装O2O平台
 	+ 带领一个团队从零开发后台服务，提供家装施工过程中的项目/计划/任务/人员/问题追踪相关的数据管理以及定时或实时的消息通知提醒。专注于架构和技术方案的设计, 代码实践和功能模块划分 
@@ -43,10 +52,10 @@
 	[www.homestyler.com](http://www.homestyler.com/floorplan)  
     一个基于HTML5和WebGL的在线工具，用以室内家装3D设计和建模
 	+ 提出/设计/实现基于Elasticseach的家装3D产品模型的后台搜索服务。支持的功能: 满足前端各种条件的查询和过滤, 产品名和类目名的全文搜索, 自定义权重排名(零售商权重, 品牌权重等) <br/> 
-  **技术栈**: Scala, Play Framework, Elasticsearch, AWS SQS.
+  **技术栈**: Java/Scala, Play Framework, Elasticsearch, AWS SQS.
 
 	+ 设计并带领一个团队实现了一个基于前端AngularJS/后端Play框架的Web App,用以零售商后台人员管理产品模型数据。基于消息驱动的后台支持分布式的模型处理和产品实时索引 <br/>
-  **技术栈**: Scala, Javascript, AngularJS, Bootstrap CSS, Html5, AWS S3
+  **技术栈**: Java/Scala, Javascript, AngularJS, Bootstrap CSS, Html5, AWS S3
 
 	+ 重新设计和搭建所有后台的网络基础架构，以提高服务的可用性，可靠性和安全性。采取的措施: 基于AWS ELB给每个服务搭集群，解决单点故障问题, Couchbase数据库搭建集群, Elasticsearch索引数据库搭建集群, 给应用和服务设置正确的AWS VPC安全组 <br/>  
   **技术栈**: AWS ELB/EC2/SQS, HAPoxy, Couchbase, Elasticsearch
@@ -74,7 +83,7 @@
 	+ 搭建123产品系列的网络基础架构，设计和实现了CI&CD系统
 	+ 设计和实现若干前端功能模块，从UI到建模工具
 	
-  **技术栈**: Javascript, Python, Bamboo, AWS
+  **技术栈**: Java, Javascript, Python, Bamboo, AWS
 
 * **Autodesk Sketchbook** *C++开发* __2007 to 2010__  
 	[www.sketchbook.com](https://www.sketchbook.com/)  

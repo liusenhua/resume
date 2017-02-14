@@ -1,5 +1,5 @@
 # 刘森华
-## Full Stack Developer & DevOps & Code Enthusiast
+## Full Stack Developer & DevOps
 
 > [https://github.com/liusenhua](https://github.com/liusenhua)  
 > [senhua.liu@gmail.com](mailto:senhua.liu@gmail.com)  
@@ -7,30 +7,38 @@
 
 ------
 ### Profile
-* 10 years of full-time software developments (6+ years of web development, 4 years of C++ development); extensive role of technical team lead
+* 10 years of full-time software developments (6+ years of full stack web development, 4 years of C++ development); extensive role of technical team lead
 * Solid skills with full stack web development & architecture
 * Various experiences on backend, frontend, deployment, 2D/3D graphics and mesh processing
 * Strong practices of micro-service oriented architecture with scalability, performance and high availability
 * Good knowledge on RESTful services build and integration
 * Familiar with object-oriented and functional programming, cloud computing, AWS
-* DevOps
+* DevOps related skills, such as Docker, Kubernetes
 * Passionate on the newest technology and open sources
 
 ------
 ### Skills
 
 * **Language**: Java, Scala, JavaScript/NodeJs, Python, Bash/Linux, Go, C++
-* **Backend Framework**: Spring Boot, Jersey, Play framework, Swagger
+* **Backend Framework**: Spring Boot, Jersey, Play framework, Mybatis, Swagger
 * **Frontend Framework**: AngularJs, JQuery, Google Closure Tools, Bootstrap, HTML5, SVG
 * **Database**: MySQL, NoSQL(Couchbase, Redis), Elastic search
-* **Web Infrastructure**: AWS, Apache, Varnish, Haproxy, Docker
+* **Web Infrastructure**: AWS, Apache, Varnish, Haproxy
+* **CI/CD**: Docker, Kubernetes
 * **Tools**: Git, Maven, NPM, Grunt, Bamboo
 
 ------
 
 ### Experience
+* **Wanda FFAN Information Company** *Senior Developer* __2016/10 to present__  
+    [www.ffan.com](http://www.ffan.com/new/index.html)  
+    Build the cloud PASS platform Web Console based on Docker and Kubernetes, make the CI & CD as a PASS service.
+    + As core developer, led a team to build a set of backend API from scratch to support CI & CD based on Kubernetes and Docker SDK. Focusing on architecture and technical solution definition, coding practice and modularizing components etc. 
+    + Coordinate the project feature scope and milestones with PM, lead the team to develop and deliver APIs in time.
+    
+  **Technical Environment**: Java, Spring boot, Docker, Kubernetes, Jenkins, MySQL
 
-* **Autodesk EZHome Platform** *Senior Developer* __2016/5 to present__  
+* **Autodesk EZHome Platform** *Senior Developer* __2016/5 to 2016/10__ 
     [www.shejijia.com](http://www.shejijia.com/)  
     Build the O2O home platform for EZHome (one of the largest home retailers in China) by leveraging Autodesk cloud service.
 	+ Led a team to build a set of backend API services from scratch. Focusing on architecture and technical solution definition, coding practice and modularizing components etc. 
@@ -43,10 +51,10 @@
 	[www.homestyler.com](http://www.homestyler.com/floorplan)  
     An HTML5 and WebGL based product that targets on real 3d visualization for home decoration.
 	+ Proposed, designed and implemented the search/index service for catalog/product based on Elasticsearch. Support features: query & filter by various of criteria, full-text search, ranking by customized weights(retailer, brands).<br>
-  **Technical Environment**: Scala, Play Framework, Elasticsearch, AWS SQS.
+  **Technical Environment**: Java/Scala, Play Framework, Elasticsearch, AWS SQS.
 
 	+ Designed and led a team to implemented AngularJs based back office website for administrators and various message driven services for distributed computing -- model process, index update.<br>
-  **Technical Environment**: Scala, Javascript, AngularJS, Bootstrap CSS, Html5, AWS S3
+  **Technical Environment**: Java/Scala, Javascript, AngularJS, Bootstrap CSS, Html5, AWS S3
 
 	+ Re-establish backend service web infrastructure and setup all environments with high criteria to improves the stability and the reliability of system. Actions are: Setup service cluster with AWS ELB, Couchbase cluster cetup, Elasticsearch cluster setup, AWS VPC setup.<br>
   **Technical Environment**: AWS ELB/EC2/SQS, HAPoxy, Couchbase, Elasticsearch.
@@ -74,7 +82,7 @@
 	+ Setup the Web Infrastructure, design and implement CI & CD system.
 	+ Designed and implemented various of features from UI to modeling.
 	
-  **Technical Environment**: Javascript, Python, Bamboo, AWS
+  **Technical Environment**: Java, Javascript, Python, Bamboo, AWS
 
 * **Autodesk Sketchbook** *C++ Developer* __2007 to 2010__  
 	[www.sketchbook.com](https://www.sketchbook.com/)  
