@@ -21,8 +21,7 @@
 * **Language**: Java, Scala, Python, Bash/Linux, JavaScript, Go, C++
 * **Framework**: Spring Boot, Play, Swagger, AngularJs, Bootstrap
 * **Database & middleware**: MySQL, Redis, Couchbase, Elasticseach, Kibna, Hbase, Zookeeper, Kafka
-* **Web Infrastructure**: AWS, Apache/Tomcat, Varnish, HAProxy
-* **CI/CD**: Docker, Kubenetes, Jenkins
+* **DevOps**: AWS, Docker, Kubenetes, Jenkins, Apache/Tomcat
 
 ------
 
@@ -111,7 +110,6 @@
     [www.sketchbook.com](https://www.sketchbook.com/)  
       A desktop 2D sketch&paint tool.
     + Implement various of brush painting, image processing features.
-    + UI 
     
     **Technical Stack**: C++, QT
 

@@ -20,8 +20,7 @@
 * **语言**: Java, Scala, Python, Bash/Linux, JavaScript, Go, C++
 * **框架**: Spring Boot, Play, Swagger, AngularJs, Bootstrap
 * **数据库及中间件**: MySQL, Redis, Couchbase, Elasticseach, Kibna, Hbase, Zookeeper, Kafka
-* **Web基础架构**: AWS, Apache/Tomcat, Varnish, HAProxy
-* **CI/CD**: Docker, Kubenetes, Jenkins
+* **DevOps**: AWS, Docker, Kubenetes, Jenkins, Apache/Tomcat
 
 ------
 
@@ -62,7 +61,6 @@
       3. 基础架构搭建：线上文章库Elasticsearch集群化, 倒排索引库Redis集群化, 基于ELK的分析报表, 以及基于Elastic Job的分布式任务调度。
 
   **技术栈**: Java/Python, Spring boot, HBase, Redis, ELK, Kafka, Thrift, 机器学习/NLP处理
-    
 
 * **万达网络科技 - 云平台** *资深工程师* __2016/10 to 2017/5__  
     [www.ffan.com](http://www.ffan.com/new/index.html)  
@@ -77,7 +75,7 @@
     
   **技术栈**: Java, Spring boot, Docker, Kubernetes, Jenkins, MySQL
 
-* **Autodesk - Homestyler/设计家* *高级开发* __2015 to 2016/10__   
+* **Autodesk - Homestyler/设计家** *高级开发* __2015 to 2016/10__   
    [居然设计家www.shejijia.com](http://www.shejijia.com/)  
     基于HTML5和WebGL的家装3D云设计平台(原欧特克和居然之家合作项目，后卖给居然之家)
 
@@ -94,8 +92,7 @@
   + 设计并带领一个团队实现了一个基于前端AngularJS/后端Play框架的控制台,用以零售商后台人员管理产品模型数据。基于消息驱动的后台支持分布式的模型处理和产品实时索引。<br/>
   **技术栈**: Java/Scala, Javascript, AngularJS, Bootstrap CSS, Html5, AWS S3
 
-  + 和运维人员紧密合作，搭建后台的编译和部署系统，实时解决线上问题，以及统一整理和实现大量的后台脚本满足各种数据迁移要求。<br/>
-  **技术栈**: Bamboo, Python, Bash, Linux
+  + 和运维人员紧密合作，搭建后台的编译和部署系统，实时解决线上问题，以及统一整理和实现大量的后台脚本满足各种数据迁移要求。
 
 * **Autodesk 其他产品 **  __2007 to 2014__  
     + __2013 to 2014__ Autodek Tinkercad [www.tinkercad.com](https://www.tinkercad.com/) - 基于浏览器的3D设计和建模的工具，满足3D打印要求
@@ -113,9 +110,6 @@
 
     + __2007 to 2010__  Autodesk Sketchbook [www.sketchbook.com](https://www.sketchbook.com/) - 欧特克最有名的绘图/图像处理软件
       + 实现了若干笔刷和图像处理算法和功能
-      + UI开发
-  
-    **技术栈**: C++, QT
 
 ------
 
