@@ -1,5 +1,4 @@
 # 刘森华
-## Full Stack Developer & DevOps & Code Enthusiast
 
 > [https://github.com/liusenhua](https://github.com/liusenhua)  
 > [senhua.liu@gmail.com](mailto:senhua.liu@gmail.com)  
@@ -7,99 +6,116 @@
 
 ------
 ### 简介
-* 10年开发经验 (超过6年的web全栈开发, 4年的C++开发)
-* 熟练的全栈式开发和架构技术
-* 丰富的前端，后端，部署，2D/3D图形和mesh处理经验
-* 可扩展的高可用和可靠地微服务实践经验
-* 丰富的RESTful API服务的开发，部署和集成经验
-* 熟练的面向对象和面向函数编程，云计算，AWS技能
-* DevOps相关经验, Docker和Kubernetes
-* 喜欢新技术和开源产品
+* 11年多工作经验:
+  - 平安银行 5月：Elasticsearch SQL插件开发和集群运维性能调优
+  - 万达网络科技 1年4月: 私有云PAAS平台开发和信息流推荐系统开发
+  - Autodesk 10年: 早期App开发，后期后台及搜索业务相关开发
+* 擅长Elasticsearch及其生态，丰富的开发运维和性能调优
+* 一定的垂直领域搜索，推荐系统构架
+* 一定的云计算和DevOps相关经验，基于Docker/Kubernetes的PASS开发，熟悉AWS各产品
 
 ------
 ### 技能
 
-* **开发语言**: Java, Scala, JavaScript/NodeJs, Python, Bash/Linux, Go, C++
-* **后端框架**: Spring Boot, Jersey, Play framework, Swagger
-* **前端框架**: AngularJs, JQuery, Google Closure Tools, Bootstrap, HTML5, SVG
-* **数据库相关**: MySQL, NoSQL(Couchbase, Redis), Elasticsearch
-* **Web架构/部署**: AWS, Apache, Varnish, HAProxy
-* **CI/CD**: Docker, Kubenetes
-* **开发工具**: Git, Maven, NPM, Grunt, Bamboo
+* **语言**: Java, Scala, Python, Bash/Linux, JavaScript, Go, C++
+* **框架**: Spring Boot, Play, Swagger, AngularJs, Bootstrap
+* **数据库及中间件**: MySQL, Redis, Couchbase, Elasticseach, Kibna, Hbase, Zookeeper, Kafka
+* **Web基础架构**: AWS, Apache/Tomcat, Varnish, HAProxy
+* **CI/CD**: Docker, Kubenetes, Jenkins
 
 ------
 
 ### 经历
 
-* **万达电商新飞凡云平台** *资深工程师* __2016/10 to present__  
+* **平安银行 - 零售大数据部门** *助理架构师* __2018/2 to 现在__ 
+  专注Elasticsearch开发和运维
+  - 主要职责及成果：
+    1. Elasticsearch SQL插件开发，以及插件服务化(ES 6.3版本以前不支持SQL语法查询)
+      + 支持标准SQL语法查询ES(性能原因，不支持多表联合查询)
+      + 支持扩展的函数，方便聚合统计运算
+      + 查询语句校验，缓存及大查询并发控制
+      
+    2. ES集群运维和性能调优
+      + 单集群规模：日增2亿文档，数据1TB，历史数据20T
+      + 解决频繁宕机集群不稳定问题等
+      + 大查询性能问题：20亿文档+字段维度100万上做聚合统计保证集群稳定，查询时间小于10秒
+      
+    3. ES技术评审和支持
+      + 接入规范，数据规模，资源评审
+      + 开发/运维规范及咨询答疑
+
+* **万达网络科技 - 信息流和广告技术中心** *资深工程师* __2017/5 to 2018/1__  
     [www.ffan.com](http://www.ffan.com/new/index.html)  
-    基于Docker和Kubernetes技术，开发万达私有云Web应用, 实现持续集成和部署本身的服务化，方便万达实现服务和应用的容器化。
-    + 作为核心人员，负责后台框架搭建，数据库设计，CI/CD工作流交互，API设计，以及核心的服务创建部署等API开发。
-    + 协助项目scrum master和PM保证后台开发的进度，及时提供API支持
+    一款类似于今日头条的APP，聚合网络中和品质生活相关的文章，根据用户的兴趣和历史行为，精准投放内容，达到千人千面的效果。
+
+    - 主要职责:
+      1. 负责内容团队Sprint快速迭代开发，任务版本分解，新技术预研及研发流程规范优化。
+      2. 信息流个性化推荐系统架构设计和核心模块编码、存储系统设计，确保业务的高并发高可用。
+      3. 规划实施基于Thrift实现跨语言服务，基于spring cloud的微服务架构设计。
+
+    - 主要成果:
+      1. 作为内容团队技术负责人，带领3人团队开发日均优质文章增量5万+的分布式爬虫系统。
+        + 基于Kafka消息分发/HBase存储/webmagic爬虫框架的分布式系统
+        + 支持模拟人工刷新页面抓取，支持动态页面爬取等高级反爬虫技术，支持微信公众号抓取
+        + 基于Elasticsearch/Kibana的报表统计分析
+      2. 负责信息流系统的整体架构设计，包括内容入库Pipeline(文档处理, NLP特征标注, simhash去重, 入库)，倒排索引构建，召回策略(NLP特征，协同过滤)和排序算法(L2 Rank，L3 Rank)工程化等。
+      3. 基础架构搭建：线上文章库Elasticsearch集群化, 倒排索引库Redis集群化, 基于ELK的分析报表, 以及基于Elastic Job的分布式任务调度。
+
+  **技术栈**: Java/Python, Spring boot, HBase, Redis, ELK, Kafka, Thrift, 机器学习/NLP处理
     
-  **技术栈**: Java, Spring boot, Docker, Kubernetes, MySQL
 
-* **Autodesk EZHome Platform** *高级开发* __2016/5 to 2016/10__  
-    [www.shejijia.com](http://www.shejijia.com/)  
-    基于欧特克的工具和云技术，打造居然之家(中国最大的家装零售商)的家装O2O平台
-	+ 带领一个团队从零开发后台服务，提供家装施工过程中的项目/计划/任务/人员/问题追踪相关的数据管理以及定时或实时的消息通知提醒。专注于架构和技术方案的设计, 代码实践和功能模块划分 
-	+ 设计和实现了一个基于RESTful API的面向微服务的后台框架，集成了很多Utility组件，从文档工具、数据库、日志到CI & CD整合等，方便开发部署和维护。现在该工程作为后台微服务的样板工程
-	+ 协助项目scrum master和PM保证后台开发的进度，及时提供API支持
-	
-  **技术栈**: Java, Spring boot, Jersey, Swagger, AWS, Couchbase, MySQL
+* **万达网络科技 - 云平台** *资深工程师* __2016/10 to 2017/5__  
+    [www.ffan.com](http://www.ffan.com/new/index.html)  
+    基于Jenkins, Docker和Kubernetes技术, 开发万达私有云控制台&持续集成/部署系统。实现一键式交付，方便万达快速实现服务和应用的容器化。
 
-* **Autodesk Homestyler Floorplan** *高级开发* __2015 to 2016/5__   
-	[www.homestyler.com](http://www.homestyler.com/floorplan)  
-    一个基于HTML5和WebGL的在线工具，用以室内家装3D设计和建模
-	+ 提出/设计/实现基于Elasticseach的家装3D产品模型的后台搜索服务。支持的功能: 满足前端各种条件的查询和过滤, 产品名和类目名的全文搜索, 自定义权重排名(零售商权重, 品牌权重等) <br/> 
+    - 主要职责及成果:
+      1. 作为核心人员，负责后台框架搭建，数据库设计，CI/CD工作流交互, API设计, 以及核心的服务创建部署等API开发。
+        + 开发基于fabric8的K8s服务部署API，自动创建、扩容服务
+        + 制作docker base镜像给给业务使用
+        + 业务应用接入和运维
+      2. 协助项目scrum master和PM保证后台开发的进度，及时提供API支持。
+    
+  **技术栈**: Java, Spring boot, Docker, Kubernetes, Jenkins, MySQL
+
+* **Autodesk - Homestyler/设计家* *高级开发* __2015 to 2016/10__   
+   [居然设计家www.shejijia.com](http://www.shejijia.com/)  
+    基于HTML5和WebGL的家装3D云设计平台(原欧特克和居然之家合作项目，后卖给居然之家)
+
+  + 设计和实现基于Elasticseach的家装3D产品模型的后台搜索服务。支持的功能: 满足前端各种条件的查询和过滤, 产品名和类目名的全文搜索, 自定义权重排名(零售商权重, 品牌权重等)，自动补全，拼音纠错，实时索引等。 <br/> 
   **技术栈**: Java/Scala, Play Framework, Elasticsearch, AWS SQS.
 
-	+ 设计并带领一个团队实现了一个基于前端AngularJS/后端Play框架的Web App,用以零售商后台人员管理产品模型数据。基于消息驱动的后台支持分布式的模型处理和产品实时索引 <br/>
-  **技术栈**: Java/Scala, Javascript, AngularJS, Bootstrap CSS, Html5, AWS S3
-
-	+ 重新设计和搭建所有后台的网络基础架构，以提高服务的可用性，可靠性和安全性。采取的措施: 基于AWS ELB给每个服务搭集群，解决单点故障问题, Couchbase数据库搭建集群, Elasticsearch索引数据库搭建集群, 给应用和服务设置正确的AWS VPC安全组 <br/>  
+  + 设计和搭建所有后台的网络基础架构，以提高服务的可用性，可靠性和安全性。采取的措施: 基于AWS ELB给每个服务搭集群，解决单点故障问题, Couchbase数据库搭建集群, Elasticsearch索引数据库搭建集群, 给应用和服务设置正确的AWS VPC安全组。<br/>  
   **技术栈**: AWS ELB/EC2/SQS, HAPoxy, Couchbase, Elasticsearch
 
-	+ 实现3D模型CAD导出功能，以及其他前端的2D建模功能   导出软件中的2D/3D设计数据，转换为专业的AutoCAD图纸. 以及其他的基于2D和SVG技术的建模功能 <br/>
-  **技术栈**: Javascript, SVG, Canvg, raphael.js, etc
+  + 设计并带领带领后端团队开发家装施工管理后台服务(欧特克和居然之家合作项目)， 提供家装施工过程中的项目/计划/任务/人员/问题追踪相关的数据管理以及消息通知提醒。
+  负责整体架构以及所有的技术方案，从业务逻辑到底层的微服务框架，文档工具、数据库选型、到日志以及CI & CD整合等，方便开发部署和维护。现在该工程作为团队后台微服务的样板工程。<br/>
+  **技术栈**: Java, Spring boot, Jersey, Swagger, AWS, Couchbase, MySQL
 
-	+ 和运维人员紧密合作，搭建后台的编译和部署系统，实时解决线上问题，以及统一整理和实现大量的后台脚本满足各种数据迁移要求 <br/>
+  + 设计并带领一个团队实现了一个基于前端AngularJS/后端Play框架的控制台,用以零售商后台人员管理产品模型数据。基于消息驱动的后台支持分布式的模型处理和产品实时索引。<br/>
+  **技术栈**: Java/Scala, Javascript, AngularJS, Bootstrap CSS, Html5, AWS S3
+
+  + 和运维人员紧密合作，搭建后台的编译和部署系统，实时解决线上问题，以及统一整理和实现大量的后台脚本满足各种数据迁移要求。<br/>
   **技术栈**: Bamboo, Python, Bash, Linux
 
-* **Autodesk Tinkercad** *高级开发* __2013 to 2014__  
-    [www.tinkercad.com](https://www.tinkercad.com/)  
-    一个简单的基于浏览器的3D设计和建模的工具，满足3D打印要求
-	+ 设计和实现了核心的3D mesh处理算法，包含这些原创算法: 图片内容打印到3D模型的表面, 3D模型表面雕刻字体, mesh切片等 <br/>
-  **技术栈**: Javascript/NodeJs, SVG, clipper.js, tess2.js.
+* **Autodesk 其他产品 **  __2007 to 2014__  
+    + __2013 to 2014__ Autodek Tinkercad [www.tinkercad.com](https://www.tinkercad.com/) - 基于浏览器的3D设计和建模的工具，满足3D打印要求
+      + 设计和实现了核心的3D mesh处理算法，包含这些原创算法: 图片内容打印到3D模型的表面, 3D模型表面雕刻字体, mesh切片等 <br/>
+      + 实现后台API
+      + 负责该产品的部署
+  
+    **技术栈**: Go, Javascript/NodeJs, Bash/Linux
 
-	+ 实现后台API
-	+ 负责该产品的部署
-	
-  **技术栈**: Go, Javascript/NodeJs, Bash/Linux
+    + __2011 to 2013__ Autodesk 123D Family app [www.123dapp.com](http://www.123dapp.com/) - Autodesk 123D产品系列的online版本
+      + 搭建123产品系列的网络基础架构，设计和实现了CI&CD系统
+      + 设计和实现若干前端功能模块，从UI到建模工具
+  
+    **技术栈**: Java, Javascript, Python, Bamboo, AWS
 
-* **Autodesk 123D Family app** *Web前端开发* __2011 to 2013__   
-    [www.123dapp.com](http://www.123dapp.com/)  
-    在线建模和设计的123D工具产品系列
-	+ 搭建123产品系列的网络基础架构，设计和实现了CI&CD系统
-	+ 设计和实现若干前端功能模块，从UI到建模工具
-	
-  **技术栈**: Java, Javascript, Python, Bamboo, AWS
-
-* **Autodesk Sketchbook** *C++开发* __2007 to 2010__  
-	[www.sketchbook.com](https://www.sketchbook.com/)  
-    欧特克最有名的二维画图和图像处理的桌面软件
-	+ 实现了若干笔刷和图像处理算法和功能
-	+ 实现了部分UI
-	
-  **技术栈**: C++, QT
-
-------
-
-### 个人项目
-
-* **play-nosql**   
-    [https://github.com/liusenhua/play-nosql.git](https://github.com/liusenhua/play-nosql)  
-    一个样板工程用以演示在Scala Play2 Web框架下怎么使用各种NoSQL数据库, 同时也演示了集成Swagger工具用以生成REST API文档.
+    + __2007 to 2010__  Autodesk Sketchbook [www.sketchbook.com](https://www.sketchbook.com/) - 欧特克最有名的绘图/图像处理软件
+      + 实现了若干笔刷和图像处理算法和功能
+      + UI开发
+  
+    **技术栈**: C++, QT
 
 ------
 
