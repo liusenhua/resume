@@ -6,41 +6,43 @@
 
 ------
 ### Profile
-* 11+ years of full-time software development.
-  - Pingan Bank (5 month): Elasticsearch plugin development, cluster operation, performance optomization and ES technical review.
+* 12+ years of full-time software development.
+  - Pingan Bank: Elasticsearch plugin development, cluster operation, performance optimization and ES technical review.
   - Wanda(1+ years): Private Cloud PAAS platform early and now working on Feeds Recommendation system.
   - Autodesk(10 years): Full Stack Development.
 * Focus on Elasticsearch, solid skills and rich experience on ELK
-* Solid skills with full stack web development & architecture. Various experiences on backend, frontend, deployment.
 * The experience on specific domain vertical Search/Recommendation system
+* Bigdata related skill, such as Spark, Hive, Presto.
 * DevOps related skills, such as Docker, Kubernetes. Familiar with AWS.
 
 ------
 ### Skills
 
-* **Language**: Java, Scala, Python, Bash/Linux, JavaScript, Go, C++
-* **Framework**: Spring Boot, Play, Swagger, AngularJs, Bootstrap
-* **Database & middleware**: MySQL, Redis, Couchbase, Elasticseach, Kibna, Hbase, Zookeeper, Kafka
+* **Language & Framework**: Java(Spring Boot, Play, Swagger), Scala, Python, Bash/Linux, Go, C++
+* **Database & middleware**: Elasticseach(and ELK), MySQL, Redis, Couchbase
+* **Bigdata**: Spark, Hive, Presto, Hbase, Zookeeper, Kafka
 * **DevOps**: AWS, Docker, Kubenetes, Jenkins, Apache/Tomcat
 
 ------
 
 ### Experience
 * **Pingan Bank / Retailer & Technology Group / Big Data platform** *Architect* __2018/2 to present__
-    Focus on Elasticsearch:
-    1. Elasticsearch SQL plugin development:
-      + Support query ES using standard SQL syntax
-      + Extend ES SQL functions to do variou via Plainess language
-      + SQL validation, caching, and limit big concurrent query
-  
-    2. Elasticsearch cluser operation and performance optomization
-      + The metrics for single ES cluster: 200 millions records increment with 1 TB size per day, 2+ billions records with 20 TB size total
-      + Solve the unstable problems, such as: Crash, No response, Long GC, etc.
-      + Theb ig query issue: Aggregation among 2+ billions records with big cardinal number fields, the latency should be less than 10 seconds
-  
-    3. Technical review about Elasticsearch:
-      + The best practice & convention for ES development, operation and maintenance
-      + Technical support
+    - Focus on Elasticsearch:
+        1. Elasticsearch SQL plugin development:
+          + Support query ES using standard SQL syntax
+          + Extend ES SQL functions to do variou via Plainess language
+          + SQL validation, caching, and limit big concurrent query
+
+        2. Elasticsearch cluser operation and performance optomization
+          + The metrics for single ES cluster: 200 millions records increment with 1 TB size per day, 2+ billions records with 20 TB size total
+          + Solve the unstable problems, such as: Crash, No response, Long GC, etc.
+          + Theb ig query issue: Aggregation among 2+ billions records with big cardinal number fields, the latency should be less than 10 seconds
+
+        3. Technical review about Elasticsearch:
+          + The best practice & convention for ES development, operation and maintenance
+          + Technical support
+    - Architect and setup Business & Audit Logging platform, based on ELK stack, and leverage Kafka, Hive and Presto, etc.
+
 
 * **Wanda / Internet Technology Group / Feeds & Ads platform** *Senior Developer* __2017/5 to 2018/1__  
     [www.ffan.com](http://www.ffan.com/new/index.html)  
@@ -87,31 +89,24 @@
   + Work closely together with Ops to set up the build and deployment system for backend, writing scripts for migration or ad hoc requirements.<br>
   **Technical Stack**: Bamboo, Python, Bash, Linux
 
-* **Autodesk**  __2007 to 2014__
+* **Autodesk - Other **  __2007 to 2014__
 
   - __2013 to 2014__ Autodesk Tinkercad 
       [www.tinkercad.com](https://www.tinkercad.com/)  
       A simple, browser-based 3D design/modeling and 3D printing app for all.
     + Designed and implemented the core mesh processing algorithms: imprint image on mesh surface, emboss text on mesh surface, mesh slicing, etc.
     + Implement REST APIs based on feature's requirements
-    + Responsible for Tinkercad deployment.
-    
-    **Technical Stack**: Go, Javascript/NodeJs, Bash/Linux, SVG, clipper.js, tess2.js.
 
   - __2011 to 2013__ Autodesk 123D Family app   
       [www.123dapp.com](http://www.123dapp.com/)  
       A family of free online apps to design and modeling.
     + Setup the Web Infrastructure, design and implement CI & CD system.
     + Design and implement various of features from UI to modeling.
-    
-    **Technical Stack**: Java, Javascript, Python, Bamboo, AWS
 
   - __2007 to 2010__  Autodesk Sketchbook
     [www.sketchbook.com](https://www.sketchbook.com/)  
       A desktop 2D sketch&paint tool.
     + Implement various of brush painting, image processing features.
-    
-    **Technical Stack**: C++, QT
 
 ------
 

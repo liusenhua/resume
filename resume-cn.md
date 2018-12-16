@@ -6,29 +6,29 @@
 
 ------
 ### 简介
-* 11年多工作经验:
-  - 平安银行 5月：Elasticsearch SQL插件开发和集群运维性能调优
+* 12年多工作经验:
+  - 平安银行：Elasticsearch相关开发和集群运维性能调优以及大数据相关开发
   - 万达网络科技 1年4月: 私有云PAAS平台开发和信息流推荐系统开发
   - Autodesk 10年: 早期App开发，后期后台及搜索业务相关开发
 * 擅长Elasticsearch及其生态，丰富的开发运维和性能调优
 * 一定的垂直领域搜索，推荐系统构架
+* 一定的大数据相关开发经验
 * 一定的云计算和DevOps相关经验，基于Docker/Kubernetes的PASS开发，熟悉AWS各产品
 
 ------
 ### 技能
 
-* **语言**: Java, Scala, Python, Bash/Linux, JavaScript, Go, C++
-* **框架**: Spring Boot, Play, Swagger, AngularJs, Bootstrap
-* **数据库及中间件**: MySQL, Redis, Couchbase, Elasticseach, Kibna, Hbase, Zookeeper, Kafka
+* **语言及框架**: Java(Spring Boot, Play, Swagger), Scala, Python, Bash/Linux, Go, C++
+* **数据库及中间件**: Elasticseach, MySQL, Redis, Couchbase
+* **大数据**: Spark, Presto, Hive, Hbase, Zookeeper, Kafka
 * **DevOps**: AWS, Docker, Kubenetes, Jenkins, Apache/Tomcat
 
 ------
 
 ### 经历
 
-* **平安银行 - 零售大数据部门** *助理架构师* __2018/2 to 现在__ 
-  专注Elasticsearch开发和运维
-  - 主要职责及成果：
+* **平安银行 - 零售大数据部门大数据基础平台** *助理架构师* __2018/2 to 现在__
+  - 专注Elasticsearch及其生态开发和运维，主要职责及成果：
     1. Elasticsearch SQL插件开发，以及插件服务化(ES 6.3版本以前不支持SQL语法查询)
       + 支持标准SQL语法查询ES(性能原因，不支持多表联合查询)
       + 支持扩展的函数，方便聚合统计运算
@@ -38,10 +38,14 @@
       + 单集群规模：日增2亿文档，数据1TB，历史数据20T
       + 解决频繁宕机集群不稳定问题等
       + 大查询性能问题：20亿文档+字段维度100万上做聚合统计保证集群稳定，查询时间小于10秒
-      
+
     3. ES技术评审和支持
-      + 接入规范，数据规模，资源评审
-      + 开发/运维规范及咨询答疑
+          + 接入规范，数据规模，资源评审
+          + 开发/运维规范及咨询答疑
+  - 搭建基于ELK和Kafka, Hive, Presto等大数据技术的日志采集和归档平台
+    1. 负责系统架构设计, 平台搭建以及日志采集SDK及相关ETL等脚本开发
+    2. 定制日志规范, 和业务接入等
+
 
 * **万达网络科技 - 信息流和广告技术中心** *资深工程师* __2017/5 to 2018/1__  
     [www.ffan.com](http://www.ffan.com/new/index.html)  
@@ -75,9 +79,8 @@
     
   **技术栈**: Java, Spring boot, Docker, Kubernetes, Jenkins, MySQL
 
-* **Autodesk - Homestyler/设计家** *高级开发* __2015 to 2016/10__   
-   [居然设计家www.shejijia.com](http://www.shejijia.com/)  
-    基于HTML5和WebGL的家装3D云设计平台(原欧特克和居然之家合作项目，后卖给居然之家)
+* **Autodesk - Homestyler/设计家** *高级开发* __2015 to 2016/10__ <br/>
+    基于HTML5和WebGL的家装3D云设计平台(原欧特克和居然之家合作项目，后卖给居然之家[www.shejijia.com](http://www.shejijia.com/))
 
   + 设计和实现基于Elasticseach的家装3D产品模型的后台搜索服务。支持的功能: 满足前端各种条件的查询和过滤, 产品名和类目名的全文搜索, 自定义权重排名(零售商权重, 品牌权重等)，自动补全，拼音纠错，实时索引等。 <br/> 
   **技术栈**: Java/Scala, Play Framework, Elasticsearch, AWS SQS.
@@ -97,16 +100,11 @@
 * **Autodesk 其他产品 **  __2007 to 2014__  
     + __2013 to 2014__ Autodek Tinkercad [www.tinkercad.com](https://www.tinkercad.com/) - 基于浏览器的3D设计和建模的工具，满足3D打印要求
       + 设计和实现了核心的3D mesh处理算法，包含这些原创算法: 图片内容打印到3D模型的表面, 3D模型表面雕刻字体, mesh切片等 <br/>
-      + 实现后台API
-      + 负责该产品的部署
-  
-    **技术栈**: Go, Javascript/NodeJs, Bash/Linux
+      + 实现后台API及产品的部署
 
     + __2011 to 2013__ Autodesk 123D Family app [www.123dapp.com](http://www.123dapp.com/) - Autodesk 123D产品系列的online版本
       + 搭建123产品系列的网络基础架构，设计和实现了CI&CD系统
       + 设计和实现若干前端功能模块，从UI到建模工具
-  
-    **技术栈**: Java, Javascript, Python, Bamboo, AWS
 
     + __2007 to 2010__  Autodesk Sketchbook [www.sketchbook.com](https://www.sketchbook.com/) - 欧特克最有名的绘图/图像处理软件
       + 实现了若干笔刷和图像处理算法和功能
